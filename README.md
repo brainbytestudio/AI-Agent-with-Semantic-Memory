@@ -18,7 +18,6 @@ Unlike traditional chatbots that rely only on chat history, this system remember
 ## 🚀 Demo Architecture
 
 ```
-.
 User Query
 ↓
 Semantic Memory Search (ChromaDB)
@@ -32,13 +31,12 @@ Async Web Search
 Gemini Generates Final Answer
 ↓
 Store Clean Knowledge in Vector DB
-
+```
 
 Each message:
 - Runs as a separate trace
 - Grouped by conversation_id
 - Fully observable via Phoenix
-```
 ---
 
 ## 📥 Installation Guide
@@ -96,7 +94,6 @@ GEMINI_API_KEY=your_gemini_api_key_here
 ## 🏗 Project Structure
 
 ```
-.
 AI_Memory_Agent/
 │
 ├── src/
@@ -170,6 +167,7 @@ AI_Memory_Agent/
 ```bash
 git clone https://github.com/yourusername/AI-Agent-with-Semantic-Memory.git
 cd AI-Agent-with-Semantic-Memory
+```
 
 ⭐ If You Found This Useful
 
