@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.log
+
+# Virtual Env
+.venv/
+env/
+
+# Environment variables
+.env
+
+# Chroma memory
+conversation_memory/
+
+# Logs
+agent_trace.log
+
+# OS files
+.DS_Store
+Thumbs.db
