@@ -17,6 +17,8 @@ Unlike traditional chatbots that rely only on chat history, this system remember
 
 ## 🚀 Demo Architecture
 
+```
+.
 User Query
 ↓
 Semantic Memory Search (ChromaDB)
@@ -36,7 +38,7 @@ Each message:
 - Runs as a separate trace
 - Grouped by conversation_id
 - Fully observable via Phoenix
-
+```
 ---
 
 ## 📥 Installation Guide
@@ -92,6 +94,9 @@ GEMINI_API_KEY=your_gemini_api_key_here
 ---
 
 ## 🏗 Project Structure
+
+```
+.
 AI_Memory_Agent/
 │
 ├── src/
@@ -105,7 +110,7 @@ AI_Memory_Agent/
 ├── .env # API Keys (Not committed)
 ├── .gitignore
 └── README.md
-
+```
 
 ---
 
