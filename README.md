@@ -1,6 +1,5 @@
-# AI-Agent-with-Semantic-Memory
-
-# 🧠 Semantic Memory AI Agent  
+# 🧠AI-Agent-with-Semantic-Memory
+ 
 ### Production-Ready AI Agent with Gemini, ChromaDB & Async Tool Calling
 
 A production-style AI Agent that combines:
